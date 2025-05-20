@@ -1,0 +1,10 @@
+{
+  "network": "liskSepolia",
+  "contractAddress": "0xDb8F9c652f613FAdB680daE048642D0e6AC8F733",
+  "owner": "0x5BAC06Ba1E1be967f8b9a6e962D1bC2a121F080a",
+  "usdcAddress": "0x72db95F0716cF79C0efe160F23fB17bF1c161317",
+  "claimAmount": "1000000000",
+  "cooldownPeriod": 86400,
+  "maxClaimPerAddress": "10000000000",
+  "deploymentTime": "2025-05-13T02:48:28.071Z"
+}
