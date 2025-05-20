@@ -1,0 +1,11 @@
+{
+  "network": "liskSepolia",
+  "contractAddress": "0xDFa0a6101f25630d3122e1b6b34590848ba35402",
+  "feeCollector": "0x5BAC06Ba1E1be967f8b9a6e962D1bC2a121F080a",
+  "feeInBasisPoints": 20,
+  "supportedTokens": {
+    "USDC": "0x72db95F0716cF79C0efe160F23fB17bF1c161317",
+    "IDRX": "0xD63029C1a3dA68b51c67c6D1DeC3DEe50D681661"
+  },
+  "deploymentTime": "2025-05-11T08:49:21.206Z"
+}
