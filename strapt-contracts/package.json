@@ -1,0 +1,19 @@
+{
+  "name": "strapt-contracts",
+  "module": "index.ts",
+  "private": true,
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/contracts": "^5.3.0",
+    "@types/bun": "latest",
+    "hardhat": "^2.24.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "axios": "^1.9.0",
+    "dotenv": "^16.5.0",
+    "form-data": "^4.0.2"
+  }
+}
