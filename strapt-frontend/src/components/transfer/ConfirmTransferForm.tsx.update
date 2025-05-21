@@ -1,0 +1,28 @@
+// Update the fee display in ConfirmTransferForm.tsx
+// Replace:
+<div className="flex justify-between mb-2">
+  <span className="text-sm text-muted-foreground">Transfer Fee:</span>
+  <span className="font-medium">
+    {transferType === 'direct'
+      ? 'No fee'
+      : `0.001 ${selectedToken.symbol}`}
+  </span>
+</div>
+<div className="flex justify-between font-medium">
+  <span>Total:</span>
+  <span>
+    {transferType === 'direct'
+      ? `${Number.parseFloat(amount).toFixed(3)} ${selectedToken.symbol}`
+      : `${(Number.parseFloat(amount) + 0.001).toFixed(3)} ${selectedToken.symbol}`}
+  </span>
+</div>
+
+// With:
+<div className="flex justify-between mb-2">
+  <span className="text-sm text-muted-foreground">Transfer Fee:</span>
+  <span className="font-medium">No fee</span>
+</div>
+<div className="flex justify-between font-medium">
+  <span>Total:</span>
+  <span>{Number.parseFloat(amount).toFixed(3)} ${selectedToken.symbol}</span>
+</div>
