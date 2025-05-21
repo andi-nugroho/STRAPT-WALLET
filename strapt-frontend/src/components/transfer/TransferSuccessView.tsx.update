@@ -1,0 +1,22 @@
+// Update the fee information in TransferSuccessView.tsx
+// Replace:
+<div className="text-sm text-muted-foreground bg-secondary/30 p-2 rounded-md">
+  <p>Note: A small fee has been deducted from the transfer amount.</p>
+  <p className="mt-1">
+    <span className="font-medium">Original amount:</span> {grossAmount} {selectedToken.symbol}
+  </p>
+  <p>
+    <span className="font-medium">Recipient will receive:</span> {amount} {selectedToken.symbol}
+  </p>
+</div>
+
+// With:
+<div className="text-sm text-muted-foreground bg-secondary/30 p-2 rounded-md">
+  <p>No fees are charged for transfers.</p>
+  <p className="mt-1">
+    <span className="font-medium">Amount:</span> {amount} {selectedToken.symbol}
+  </p>
+  <p>
+    <span className="font-medium">Recipient will receive:</span> {amount} {selectedToken.symbol}
+  </p>
+</div>
