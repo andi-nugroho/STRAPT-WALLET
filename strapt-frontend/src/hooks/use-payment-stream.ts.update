@@ -1,0 +1,10 @@
+// Update the fee calculation in use-payment-stream.ts
+// Replace:
+// Calculate fee
+const feePercentage = 10; // 0.1% fee
+const feeAmount = (parsedAmount * BigInt(feePercentage)) / BigInt(10000);
+const netAmount = parsedAmount - feeAmount;
+
+// With:
+// No fee calculation needed
+const netAmount = parsedAmount; // No fee deduction
