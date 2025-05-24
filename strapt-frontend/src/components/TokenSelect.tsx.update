@@ -1,0 +1,14 @@
+// Update the token info tooltip in TokenSelect.tsx
+// Replace:
+<ul className="list-disc pl-4 text-xs space-y-1">
+  <li>Make sure you have enough tokens for the stream</li>
+  <li>Different tokens may have different fees</li>
+  <li>Your available balance is shown for each token</li>
+</ul>
+
+// With:
+<ul className="list-disc pl-4 text-xs space-y-1">
+  <li>Make sure you have enough tokens for the stream</li>
+  <li>No fees are charged for any token</li>
+  <li>Your available balance is shown for each token</li>
+</ul>
