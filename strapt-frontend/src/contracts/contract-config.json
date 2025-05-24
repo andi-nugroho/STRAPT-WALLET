@@ -1,0 +1,45 @@
+{
+  "ProtectedTransferV2": {
+    "address": "0x33665BB084Eb3a01aA2E4eCE2FAd292dCe683e34",
+    "network": "liskSepolia",
+    "supportedTokens": {
+      "USDC": "0x72db95F0716cF79C0efe160F23fB17bF1c161317",
+      "IDRX": "0xD63029C1a3dA68b51c67c6D1DeC3DEe50D681661"
+    },
+    "feeInBasisPoints": 0
+  },
+  "ProtectedTransfer": {
+    "address": "0x225f179c0d57c3DF357f802BB40d5a4BeaFb4F0C",
+    "network": "liskSepolia",
+    "supportedTokens": {
+      "USDC": "0x72db95F0716cF79C0efe160F23fB17bF1c161317",
+      "IDRX": "0xD63029C1a3dA68b51c67c6D1DeC3DEe50D681661"
+    }
+  },
+  "PaymentStream": {
+    "address": "0xDFa0a6101f25630d3122e1b6b34590848ba35402",
+    "network": "liskSepolia",
+    "supportedTokens": {
+      "USDC": "0x72db95F0716cF79C0efe160F23fB17bF1c161317",
+      "IDRX": "0xD63029C1a3dA68b51c67c6D1DeC3DEe50D681661"
+    },
+    "feeInBasisPoints": 20
+  },
+  "StraptDrop": {
+    "address": "0x3d183CDCbF78BA6e39eb0e51C44d233265786e0A",
+    "network": "liskSepolia",
+    "supportedTokens": {
+      "USDC": "0x72db95F0716cF79C0efe160F23fB17bF1c161317",
+      "IDRX": "0xD63029C1a3dA68b51c67c6D1DeC3DEe50D681661"
+    },
+    "feeInBasisPoints": 5
+  },
+  "USDCFaucet": {
+    "address": "0xDb8F9c652f613FAdB680daE048642D0e6AC8F733",
+    "network": "liskSepolia",
+    "tokenAddress": "0x72db95F0716cF79C0efe160F23fB17bF1c161317",
+    "claimAmount": "1000000000",
+    "cooldownPeriod": 86400,
+    "maxClaimPerAddress": "100000000000"
+  }
+}
